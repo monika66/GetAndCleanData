@@ -1,4 +1,4 @@
-CookBook:     Describes 'avXData' data structure resulting als tidy data from raw data of the UCI study "Human activities recognized by Smartphones"
+CodeBook:     Describes 'avXData' data structure resulting als tidy data from raw data of the UCI study "Human activities recognized by Smartphones"
                           
 Course:       Getting and cleaning data, Coursera Data Science
 Assignment:   Peer graded project Assignment, week 4
@@ -24,7 +24,7 @@ Tidy data:    Project assignment:
                  https://github.com/monika66/GetAndCleanData/edit/master/README.md
               
               
-COOKBOOK SECTION
+CODEBOOK SECTION
 
 Data structure:   The resulting tidy data is a data.frame AvXData with 68 variables stored in the github repository:
                   https://github.com/monika66/GetAndCleanData/blob/master/tidy_avXData.tx
