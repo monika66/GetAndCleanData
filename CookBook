@@ -5,7 +5,8 @@ Assignment:   Peer graded project Assignment, week 4
 Student:      Monika Hunkeler
 Date:         28. of May 2017
 
-Study design section:
+
+STUDY DESIGN SECTION
 
 Raw data:     Raw datas are collected from the accelerometers from the Samsung Galaxy S smartphone and downloadable on
               https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
@@ -19,11 +20,11 @@ Tidy data:    Project assignment:
               4. Appropriately labels the data set with descriptive variable names. 
               5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable 
                  for each activity and each subject.
-              -> more information see the README file in github repository:
+                 -> more information see the README file in github repository:
+                 https://github.com/monika66/GetAndCleanData/edit/master/README.md
               
-   
-   
-CookBook section: 
+              
+COOKBOOK SECTION
 
 Data structure:   The resulting tidy data is a data.frame AvXData with 68 variables stored in the github repository:
                   https://github.com/monika66/GetAndCleanData/blob/master/tidy_avXData.tx
