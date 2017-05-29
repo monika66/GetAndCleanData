@@ -1,0 +1,204 @@
+ 
+[[1]]
+[1] "activity"
+
+[[2]]
+[1] "subject"
+
+[[3]]
+[1] "fBodyAccJerkmean()XMean"
+
+[[4]]
+[1] "fBodyAccJerkmean()YMean"
+
+[[5]]
+[1] "fBodyAccJerkmean()ZMean"
+
+[[6]]
+[1] "fBodyAccJerkstd()XMean"
+
+[[7]]
+[1] "fBodyAccJerkstd()YMean"
+
+[[8]]
+[1] "fBodyAccJerkstd()ZMean"
+
+[[9]]
+[1] "fBodyAccMagmean()Mean"
+
+[[10]]
+[1] "fBodyAccMagstd()Mean"
+
+[[11]]
+[1] "fBodyAccmean()XMean"
+
+[[12]]
+[1] "fBodyAccmean()YMean"
+
+[[13]]
+[1] "fBodyAccmean()ZMean"
+
+[[14]]
+[1] "fBodyAccstd()XMean"
+
+[[15]]
+[1] "fBodyAccstd()YMean"
+
+[[16]]
+[1] "fBodyAccstd()ZMean"
+
+[[17]]
+[1] "fBodyBodyAccJerkMagmean()Mean"
+
+[[18]]
+[1] "fBodyBodyAccJerkMagstd()Mean"
+
+[[19]]
+[1] "fBodyBodyGyroJerkMagmean()Mean"
+
+[[20]]
+[1] "fBodyBodyGyroJerkMagstd()Mean"
+
+[[21]]
+[1] "fBodyBodyGyroMagmean()Mean"
+
+[[22]]
+[1] "fBodyBodyGyroMagstd()Mean"
+
+[[23]]
+[1] "fBodyGyromean()XMean"
+
+[[24]]
+[1] "fBodyGyromean()YMean"
+
+[[25]]
+[1] "fBodyGyromean()ZMean"
+
+[[26]]
+[1] "fBodyGyrostd()XMean"
+
+[[27]]
+[1] "fBodyGyrostd()YMean"
+
+[[28]]
+[1] "fBodyGyrostd()ZMean"
+
+[[29]]
+[1] "tBodyAccJerkMagmean()Mean"
+
+[[30]]
+[1] "tBodyAccJerkMagstd()Mean"
+
+[[31]]
+[1] "tBodyAccJerkmean()XMean"
+
+[[32]]
+[1] "tBodyAccJerkmean()YMean"
+
+[[33]]
+[1] "tBodyAccJerkmean()ZMean"
+
+[[34]]
+[1] "tBodyAccJerkstd()XMean"
+
+[[35]]
+[1] "tBodyAccJerkstd()YMean"
+
+[[36]]
+[1] "tBodyAccJerkstd()ZMean"
+
+[[37]]
+[1] "tBodyAccMagmean()Mean"
+
+[[38]]
+[1] "tBodyAccMagstd()Mean"
+
+[[39]]
+[1] "tBodyAccmean()XMean"
+
+[[40]]
+[1] "tBodyAccmean()YMean"
+
+[[41]]
+[1] "tBodyAccmean()ZMean"
+
+[[42]]
+[1] "tBodyAccstd()XMean"
+
+[[43]]
+[1] "tBodyAccstd()YMean"
+
+[[44]]
+[1] "tBodyAccstd()ZMean"
+
+[[45]]
+[1] "tBodyGyroJerkMagmean()Mean"
+
+[[46]]
+[1] "tBodyGyroJerkMagstd()Mean"
+
+[[47]]
+[1] "tBodyGyroJerkmean()XMean"
+
+[[48]]
+[1] "tBodyGyroJerkmean()YMean"
+
+[[49]]
+[1] "tBodyGyroJerkmean()ZMean"
+
+[[50]]
+[1] "tBodyGyroJerkstd()XMean"
+
+[[51]]
+[1] "tBodyGyroJerkstd()YMean"
+
+[[52]]
+[1] "tBodyGyroJerkstd()ZMean"
+
+[[53]]
+[1] "tBodyGyroMagmean()Mean"
+
+[[54]]
+[1] "tBodyGyroMagstd()Mean"
+
+[[55]]
+[1] "tBodyGyromean()XMean"
+
+[[56]]
+[1] "tBodyGyromean()YMean"
+
+[[57]]
+[1] "tBodyGyromean()ZMean"
+
+[[58]]
+[1] "tBodyGyrostd()XMean"
+
+[[59]]
+[1] "tBodyGyrostd()YMean"
+
+[[60]]
+[1] "tBodyGyrostd()ZMean"
+
+[[61]]
+[1] "tGravityAccMagmean()Mean"
+
+[[62]]
+[1] "tGravityAccMagstd()Mean"
+
+[[63]]
+[1] "tGravityAccmean()XMean"
+
+[[64]]
+[1] "tGravityAccmean()YMean"
+
+[[65]]
+[1] "tGravityAccmean()ZMean"
+
+[[66]]
+[1] "tGravityAccstd()XMean"
+
+[[67]]
+[1] "tGravityAccstd()YMean"
+
+[[68]]
+[1] "tGravityAccstd()ZMean"
