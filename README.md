@@ -53,11 +53,13 @@ Instruction list:
           5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for 
              each activity and each subject.
       
-   5. Source the script 'run_analysis.R'. The script follows the instrucions in step 4.) and prints the resulting tidy data as
-      data.frame 'avXData' to the R console. In addition it creates a directory '/data' to your project ordner and stores 
-      the resulting tidy data from step 4 as 'subXData.txt' and the tidy data from step 5 as 'avXData.txt' in it. 
-      The script will be explained in more details at point 7.)
+   5.) Source the script 'run_analysis.R'. The script follows the instrucions in step 4.) and prints the resulting tidy data as
+       data.frame 'avXData' to the R console. In addition it creates a directory '/data' to your project ordner and stores 
+       the resulting tidy data from step 4 as 'tidy_XData.txt' and the tidy data from step 5 as 'tidy_avXData.txt' in it. 
+       The R script will be explained in more details at point 7.)
       
-    6.) The resulting file 'avXData.txt' was uploaded to the github repository 
+    6.) The resulting file 'tidy_avXData.txt' was uploaded to the github repository:
+        https://github.com/monika66/GetAndCleanData/tidy_avXData.txt 
       
-      
+   7.)  The R script 'run_analysis.R' was uploaded to the github repository:
+        
