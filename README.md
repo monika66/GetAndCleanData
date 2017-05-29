@@ -17,18 +17,22 @@ Date:	28. of May 2017
 Read the Instructions from the Peer Grade Assignment 
 
 2.)
-Read the background information on:
+Read the background information on:setwd("C:/Users/acer17/Desktop/coursera/Assignment_3_4")
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
 3.)
 Use R and setwd() to set your work directory on './Desktop/coursera'
+	
+	example setwd("C:/Users/acer17/Desktop/coursera/Assignment_3_4")
 
 4.)
 Create with R a new directory for the project in './Desktop/coursera' directory:
+
 	if(!file.exists("./Assignment_3_4")){dir.create("./Assignment_3_4")}
 
 5.)
 Download the zipped project data  in project directory '/Assignment_3_4' 
+
 	fileUrl <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
 	file.create("UCI HAR Dataset.zip")
 	download.file(fileUrl, destfile = "./UCI HAR Dataset.zip")
