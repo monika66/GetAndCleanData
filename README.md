@@ -86,9 +86,9 @@ The resulting file 'tidy_avXData.txt' was uploaded to the github repository:
 https://github.com/monika66/GetAndCleanData/blob/master/tidy_avXData.txt
 
 10.)
-A CookBook explaining the tidy data and variables of 'tidy_avXData.txt', respectively 'avXData' 
+A CodeBook explaining the tidy data and variables of 'tidy_avXData.txt', respectively 'avXData' 
 was uploaded to the github repository:
-https://github.com/monika66/GetAndCleanData/blob/master/CookBook
+https://github.com/monika66/GetAndCleanData/blob/master/CodeBook
 
 
 # R SCRIPT SECTION: 
