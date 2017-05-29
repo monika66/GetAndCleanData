@@ -1,16 +1,14 @@
-# GetAndCleanData
-Coursera: Data Science / Course 3: Getting and Cleaning Data / Programming Assignment: week 4
-README.md:   Describes step-by-step how to analys the raw data from UCI study "Human activities
-		 recognized by Smartphones", according to the expected results of the peer graded
-		 assignment project "Getting and cleaning data"
-                         
+## README.md:   
+Describes step-by-step how to analys the raw data from UCI study "Human activities recognized by Smartphones", 
+according to the expected results of the peer graded assignment project "Getting and cleaning data"
+		                     
 Course:       	Getting and cleaning data, Coursera Data Science
 Assignment:   	Peer graded project Assignment, week 4
 Student:      	Monika Hunkeler
 Date:         	28. of May 2017
 
 
-INSTRUCTION SECTION:
+## INSTRUCTION SECTION:
 
 1.) 
 Read the Instructions from the Peer Grade Assignment 
@@ -90,19 +88,13 @@ was uploaded to the github repository:
 https://github.com/monika66/GetAndCleanData/blob/master/CookBook
 
 
-R SCRIPT SECTION: 
+## R SCRIPT SECTION: 
 
-#################################################################################
-## Coursera: Data Science Specialisation
-## Course 3: Getting and Cleaning Data
-## Peer-graded Assignment: Getting and Cleaning Data Course Project
-## Student: Monika Hunkeler
-##################################################################################
-## The R script "run_analysis.R" tidies and analysis Human-activity-data 
-## sampled by the accelerometers from the Samsung Galaxy S smartphone.
-## The used data sets are downloaded from the UCI machine learning repository
-## ###############################################################################
-## Loading needed packages
+The R script "run_analysis.R" tidies and analysis Human-activity-data 
+ampled by the accelerometers from the Samsung Galaxy S smartphone.
+The used data sets are downloaded from the UCI machine learning repository
+
+# Loading needed packages
 library(readr)
 library(dplyr)
 library(tidyr)
