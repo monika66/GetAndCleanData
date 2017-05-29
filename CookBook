@@ -1,6 +1,6 @@
 CookBook:     Describes avXData data strucutre resulting from raw data of the UCI study "Human activities recognized by Smartphones"
                           
-Course:       Getting and cleaning data
+Course:       Getting and cleaning data, Coursera Data Science
 Assignment:   Peer graded project Assignment, week 4
 Student:      Monika Hunkeler
 Date:         28. of May 2017
@@ -39,17 +39,17 @@ AvXData           data.frame 68 columns
                   1 .. 30
                   
 [3] .. [68]       numeric
-       Column 3 - 68 contains the average ofthe "means or standard deviations variables measurement" grouped by activity and subject,
-       The variable name includes information about the original measurements, (more information see feature_info.txt):
+       Column 3 - 68 contains the mean (average) of the "means or standard deviations variables measurement" grouped by activity and subject,
+       The variable name parts includes informations about the original measurements, (more information see feature_info.txt):
           the first letter 't' to indicate time domain signals
           the first letter 'f' to indicate frequency domain signals
           mean():   Mean value 
           std():    Standard deviation
-          Acc       
-          Gyro
-          Jerk
-          Mag
-          -XYZ      '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
+          Acc       3-axial raw signals by accelerometer 
+          Gyro      3-axial raw signals by gyrometer 
+          XYZ       X,Y or Z is used to denote 3-axial signals in the X, Y and Z directions.
+          Jerk      the body linear acceleration and angular velocity were derived in time to obtain Jerk signals
+          Mag       the magnitude of the three-dimensional signals were calculated using the Euclidean norm 
           Mean      the last name part "Mean" explains the average transformation done in this project assignment.
 
 [3] "fBodyAccJerkmean()XMean"
