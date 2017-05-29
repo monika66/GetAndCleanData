@@ -31,8 +31,8 @@ Create with R a new directory for the project in './Desktop/coursera' directory:
 Download the zipped project data  in project directory '/Assignment_3_4' 
 	fileUrl <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
 	file.create("UCI HAR Dataset.zip")
-	download.file(fileUrl, destfile = "UCI HAR Dataset.zip")
-	unzip(destfile)
+	download.file(fileUrl, destfile = "./UCI HAR Dataset.zip")
+	unzip(zipfile = "./UCI HAR Dataset.zip")
 
 6.)
 Enzip the order 'UCI HAR Dataset ' to your project directory '/Assignment_3_4'
