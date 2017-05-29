@@ -6,7 +6,6 @@ Assignment:   Peer graded project Assignment, week 4
 Student:      Monika Hunkeler
 Date:         28. of May 2017
 
-
 INSTRUCTION SECTION:
 
 1.) Read the Instructions from the Peer Grade Assignment 
