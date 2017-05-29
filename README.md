@@ -59,7 +59,8 @@ Instruction list:
        The R script will be explained in more details at point 7.)
       
     6.) The resulting file 'tidy_avXData.txt' was uploaded to the github repository:
-        https://github.com/monika66/GetAndCleanData/tidy_avXData.txt 
+        https://github.com/monika66/GetAndCleanData/blob/master/tidy_avXData.txt
       
    7.)  The R script 'run_analysis.R' was uploaded to the github repository:
+        
         
