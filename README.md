@@ -65,7 +65,7 @@ Instruction list:
         
     7.) A CookBook explaining the tidy data and variables of 'tidy_avXData.txt', respectively 'avXData' 
         was uploaded to the github repository:
-       
+        https://github.com/monika66/GetAndCleanData/blob/master/CookBook
         
   R Script section:   Describes the automated script steps of 'run_analysis.R' done with instruction point 
   
