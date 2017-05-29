@@ -1,4 +1,4 @@
-## README.md:   
+# README.md:   
 Describes step-by-step how to analys the raw data from UCI study "Human activities recognized by Smartphones", 
 according to the expected results of the peer graded assignment project "Getting and cleaning data"
 		                     
@@ -8,7 +8,7 @@ Student:      	Monika Hunkeler
 Date:         	28. of May 2017
 
 
-## INSTRUCTION SECTION:
+# INSTRUCTION SECTION:
 
 1.) 
 Read the Instructions from the Peer Grade Assignment 
@@ -88,29 +88,27 @@ was uploaded to the github repository:
 https://github.com/monika66/GetAndCleanData/blob/master/CookBook
 
 
-## R SCRIPT SECTION: 
+# R SCRIPT SECTION: 
 
 The R script "run_analysis.R" tidies and analysis Human-activity-data 
 ampled by the accelerometers from the Samsung Galaxy S smartphone.
 The used data sets are downloaded from the UCI machine learning repository
 
-# Loading needed packages
+## Loading needed packages
 library(readr)
 library(dplyr)
 library(tidyr)
 
 ##  Assignment: 1. Merges the training and the test data sets to create one data set.
-##  
-##  The observation data are randomized splitted in: 70% training : 30% test data, 
-##  stored in the files "X-train.txt" and "X-test.txt"
-##
+
+##  The observation data are randomized splitted in: 70% training : 30% test data, stored in the files "X-train.txt" and "X-test.txt"
 ##  The observation data sets are splitted in 3 files:
 ##      1.) X-train.txt / X-train.txt containing the measured data
 ##      2.) subject_train.txt  containing for each observation of the training or test data 
 ##          the participating "subject" (human) as an ID
 ##      3.) y_train.txt containing for each observation of the training or test data 
 ##          the "activity" as an ID
-##           
+        
 ##   Tidy data: 
 ##      1.) To bring all data of an observation together in one row, the columns of the 3 files 
 ##      for each of the 2 data set (training, test) are combined in a training and test data frame.
@@ -129,9 +127,8 @@ library(tidyr)
 
         allXData <- rbind(xTraining, xTest)
 
-## Assignment: 2. Extracts only the measurements on the mean and standard deviation for 
-##                each measurement. 
-##
+## Assignment: 2. Extracts only the measurements on the mean and standard deviation for each measurement. 
+
 ##  Tidy data: 
 ##      The help file "features.txt" contains the variable names and as key the column id 
 ##      of the measurements. The variable names of the raw data includes the name of 
@@ -147,7 +144,7 @@ library(tidyr)
      
 
 ## Assignment: 3. Uses descriptive activity names to name the activities in the data set
-##
+
 ## Tidy data:
 ##      Replace the activity number id with descriptive labels from the help file
 ##      "activity_labels.txt". This makes the data more understandable for humans.
@@ -158,10 +155,9 @@ library(tidyr)
         subXData[ , ncol(subXData)] <- activityLabels[subXData[ , ncol(subXData)], 2]
 
 ## Assignment: 4. Appropriately labels the data set with descriptive variable names. 
-##
+
 ## Tidy data:
-##      Replace the R column names of "subXData" data frame by the measurement variable names 
-##      from "features"
+##      Replace the R column names of "subXData" data frame by the measurement variable names from "features"
 
         ## Extract the column number from the subXData R column names
         colNumber <- parse_number(names(subXData))
@@ -172,9 +168,8 @@ library(tidyr)
         names(subXData)[ncol(subXData) -1] <- "subject"
         names(subXData)[ncol(subXData)] <- "activity"
 
-## Assignment: 5. From the data set in step 4, creates a second, independent tidy data set 
-##             with the average of each variable for each activity and each subject.
-##
+## Assignment: 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+
 ## Tidy data:
 ##      The datas are grouped for each activity and subject combination and the average 
 ##      calculated by mean for every group and measure variable. 
