@@ -1,23 +1,29 @@
-CookBook:     Tidy data from UCI study "Human activities recognized by Smartphones"
-              peer grade assignment week 4
-              
+CookBook:     Describes avXData data strucutre resulting from raw data of the UCI study "Human activities recognized by Smartphones"
+                          
 Course:       Getting and cleaning data
+Assignment:   Peer graded project Assignment, week 4
 Student:      Monika Hunkeler
 Date:         28. of May 2017
 
+Study design
 Raw data:     Raw datas are collected from the accelerometers from the Samsung Galaxy S smartphone and downloadable on
               https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
               A full description of the data study is available at:
               http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
               
-Tidy data:    1. Merges the training and the test sets to create one data set.
+Tidy data:    Project assignment:   
+              1. Merges the training and the test sets to create one data set.
               2. Extracts only the measurements on the mean and standard deviation for each measurement. 
               3. Uses descriptive activity names to name the activities in the data set
               4. Appropriately labels the data set with descriptive variable names. 
-              5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
-              more information see the ReadMe.md file in repository
-Result
-AvXData           data.frame with 68 columns   
+              5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable 
+                 for each activity and each subject.
+              -> more information see the README file in repository monika66/GetAndCleanData as README.md
+             
+CookBook
+Data structure:  The resulting tidy data is a data.frame AvXData with 68 variables stored in repository monika66/GetAndCleanData as tidy_avXData.txt 
+                 
+AvXData           data.frame 68 columns   
 
 [1] "activity"    Factor w/ 6 levels
        Label describes activity of the measure
@@ -33,8 +39,18 @@ AvXData           data.frame with 68 columns
                   1 .. 30
                   
 [3] .. [68]       numeric
-       Mean of all means or standard deviations of the raw data measurement grouped by activity and subject.
-
+       Column 3 - 68 contains the average ofthe "means or standard deviations variables measurement" grouped by activity and subject,
+       The variable name includes information about the original measurements, (more information see feature_info.txt):
+          the first letter 't' to indicate time domain signals
+          the first letter 'f' to indicate frequency domain signals
+          mean():   Mean value 
+          std():    Standard deviation
+          Acc       
+          Gyro
+          Jerk
+          Mag
+          -XYZ      '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
+          Mean      the last name part "Mean" explains the average transformation done in this project assignment.
 
 [3] "fBodyAccJerkmean()XMean"
 
