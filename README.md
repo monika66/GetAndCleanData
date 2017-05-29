@@ -4,7 +4,7 @@ README.md:    Describes step-by-step how to analys the raw data from UCI study "
 Course:       Getting and cleaning data, Coursera Data Science
 Assignment:   Peer graded project Assignment, week 4
 Student:      Monika Hunkeler
-Date: 28. of May 2017
+Date:         28. of May 2017
 
 Instruction list:
 1.) Read the Instructions from the Peer Grade Assignment 
@@ -53,14 +53,20 @@ Instruction list:
           5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for 
              each activity and each subject.
       
-   5.) Source the script 'run_analysis.R'. The script follows the instrucions in step 4.) and prints the resulting tidy data as
-       data.frame 'avXData' to the R console. In addition it creates a directory '/data' to your project ordner and stores 
-       the resulting tidy data from step 4 as 'tidy_XData.txt' and the tidy data from step 5 as 'tidy_avXData.txt' in it. 
-       The R script will be explained in more details at point 7.)
+   5.)  Source the script 'run_analysis.R'. The script follows the instrucions in step 4.) and prints the resulting tidy data as
+        data.frame 'avXData' to the R console. In addition it creates a directory '/data' to your project ordner and stores 
+        the resulting tidy data from step 4 as 'tidy_XData.txt' and the tidy data from step 5 as 'tidy_avXData.txt' in it. 
+        The script will be explained in more details at the R script section below the instruction section.
+        The R script 'run_analysis.R' was uploaded to the github repository:
+        https://github.com/monika66/GetAndCleanData/blob/master/run_analysis.R
       
     6.) The resulting file 'tidy_avXData.txt' was uploaded to the github repository:
         https://github.com/monika66/GetAndCleanData/blob/master/tidy_avXData.txt
-      
-   7.)  The R script 'run_analysis.R' was uploaded to the github repository:
         
+    7.) A CookBook explaining the tidy data and variables of 'tidy_avXData.txt', respectively 'avXData' 
+        was uploaded to the github repository:
+       
         
+  R Script section:   Describes the automated script steps of 'run_analysis.R' done with instruction point 
+  
+  
