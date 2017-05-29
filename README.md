@@ -21,15 +21,18 @@ Read the background information on:
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
 3.)
-Use R and setwd() to set your work directory on '/Desktop/coursera'
+Use R and setwd() to set your work directory on './Desktop/coursera'
 
 4.)
-Create with R a new directory for your project in your ./Desktop/coursera directory:
-if(!file.exists("./Assignment_3_4")){dir.create("./Assignment_3_4")}
+Create with R a new directory for the project in './Desktop/coursera' directory:
+	if(!file.exists("./Assignment_3_4")){dir.create("./Assignment_3_4")}
 
 5.)
-Download the zipped project data  to your project directory '/Assignment_3_4'
-https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+Download the zipped project data  in project directory '/Assignment_3_4' 
+	fileUrl <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
+	file.create("UCI HAR Dataset.zip")
+	download.file(fileUrl, destfile = "UCI HAR Dataset.zip")
+	unzip(destfile)
 
 6.)
 Enzip the order 'UCI HAR Dataset ' to your project directory '/Assignment_3_4'
