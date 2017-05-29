@@ -2,10 +2,13 @@
 Describes step-by-step how to analys the raw data from UCI study "Human activities recognized by Smartphones", 
 according to the expected results of the peer graded assignment project "Getting and cleaning data"
 		                     
-Course:       	Getting and cleaning data, Coursera Data Science
-Assignment:   	Peer graded project Assignment, week 4
-Student:      	Monika Hunkeler
-Date:         	28. of May 2017
+Course:		Getting and cleaning data, Coursera Data Science
+
+Assignment:	Peer graded project Assignment, week 4
+
+Student:	Monika Hunkeler
+
+Date:	28. of May 2017
 
 
 # INSTRUCTION SECTION:
