@@ -99,7 +99,9 @@ The used data sets are downloaded from the UCI machine learning repository
 
 ## Loading needed packages
 library(readr)
+
 library(dplyr)
+
 library(tidyr)
 
 ##  Assignment: 1. Merges the training and the test data sets to create one data set.
